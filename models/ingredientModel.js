@@ -15,3 +15,14 @@ module.exports = mongoose.model('Ingredient', ingredientSchema);
 // When we pass in the constructor function (named 'ingredientSchema' in this case) this constructor function is assigned as a method
 // on the mongoose.model object, i.e. mongoose.model.ingredientSchema.
 // Having assigned the constructor function to mongoose.model we then export that in a require.
+
+/*The permitted Schema Types are:
+    String
+    Number
+    Date
+    Buffer
+    Boolean
+    Mixed
+    ObjectId
+    Array
+*/

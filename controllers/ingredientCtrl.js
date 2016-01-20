@@ -17,3 +17,15 @@ module.exports = {
     console.log('You GOT it dude');
   }
 };
+
+/* MODEL PROPERTIES:
+find
+findOne
+update
+findByIdAndUpdate
+create
+modify
+findAndModify
+save
+findByIdAndRemove
+*/
